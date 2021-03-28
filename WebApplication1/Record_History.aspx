@@ -63,7 +63,36 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style12">Growth History</td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style12">Batch ID:<asp:Label ID="lblBatchIdError" runat="server" ForeColor="Red"></asp:Label>
+                </td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style12">
+                    <asp:TextBox ID="txtBatchID" runat="server" Width="265px"></asp:TextBox>
+                </td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style12">Plant Date:<asp:Label ID="lblPlantDateError" runat="server" ForeColor="Red"></asp:Label>
+                </td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
@@ -74,8 +103,15 @@
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style12">
+                    &nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
                 <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style12">Growth:<asp:Label ID="lblGrowthError" runat="server" ForeColor="Red"></asp:Label>
+                </td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
@@ -87,7 +123,14 @@
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style3">
+                    &nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style12">Harvest Date:<asp:Label ID="lblHarvestDateError" runat="server" ForeColor="Red"></asp:Label>
+                </td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
@@ -99,8 +142,20 @@
             </tr>
             <tr>
                 <td class="auto-style4"></td>
-                <td class="auto-style5"></td>
+                <td class="auto-style5">
+                    <asp:CheckBox ID="chkHarvestDate" runat="server" OnCheckedChanged="chkHarvestDate_CheckedChanged" Text="Check if plants are not harvested yet" />
+                </td>
                 <td class="auto-style6"></td>
+            </tr>
+            <tr>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style6">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style5">Notes:</td>
+                <td class="auto-style6">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>

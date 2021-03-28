@@ -24,6 +24,33 @@ namespace WebApplication1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// lblBatchIdError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblBatchIdError;
+
+        /// <summary>
+        /// txtBatchID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBatchID;
+
+        /// <summary>
+        /// lblPlantDateError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPlantDateError;
+
+        /// <summary>
         /// txtPlantDate control.
         /// </summary>
         /// <remarks>
@@ -31,6 +58,15 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPlantDate;
+
+        /// <summary>
+        /// lblGrowthError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblGrowthError;
 
         /// <summary>
         /// txtGrowth control.
@@ -42,6 +78,15 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtGrowth;
 
         /// <summary>
+        /// lblHarvestDateError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblHarvestDateError;
+
+        /// <summary>
         /// txtHarvestDate control.
         /// </summary>
         /// <remarks>
@@ -49,6 +94,15 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtHarvestDate;
+
+        /// <summary>
+        /// chkHarvestDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkHarvestDate;
 
         /// <summary>
         /// txtNotes control.
