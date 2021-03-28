@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\calendar.png" />
     <Content Include="images\garden.jpg" />
     <Content Include="Global.asax" />
+    <Content Include="Watering Calender.aspx" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
@@ -115,6 +117,13 @@
     </Compile>
     <Compile Include="Soil_Composition_Tracker.aspx.designer.cs">
       <DependentUpon>Soil_Composition_Tracker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Watering Calender.aspx.cs">
+      <DependentUpon>Watering Calender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Watering Calender.aspx.designer.cs">
+      <DependentUpon>Watering Calender.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
