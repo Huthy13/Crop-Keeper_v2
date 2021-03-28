@@ -18,5 +18,15 @@ namespace WebApplication1
         {
             Response.Redirect("Soil_Composition_Tracker.aspx");
         }
+
+        protected void btnWateringCal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnRecordPlantHist_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Record_History.aspx");
+        }
     }
 }

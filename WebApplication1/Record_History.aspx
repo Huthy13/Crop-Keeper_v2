@@ -117,7 +117,7 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Button ID="btnRecordPlantHist" runat="server" CssClass="auto-style13" Text="Save" Width="272px" />
+                    <asp:Button ID="btnRecordPlantHist" runat="server" CssClass="auto-style13" Text="Save" Width="272px" OnClick="btnRecordPlantHist_Click" />
                 </td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>

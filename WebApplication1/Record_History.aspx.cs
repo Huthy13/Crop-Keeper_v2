@@ -14,6 +14,9 @@ namespace WebApplication1
 
         }
 
-
+        protected void btnRecordPlantHist_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }
