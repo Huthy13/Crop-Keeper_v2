@@ -25,5 +25,10 @@ namespace WebApplication1
             DateTime todaysDate = DateTime.Now;
             txtCalendar.Text = todaysDate.ToString("D");
         }
+
+        protected void lnkbtnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }

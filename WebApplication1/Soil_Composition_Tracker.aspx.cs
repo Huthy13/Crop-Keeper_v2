@@ -86,5 +86,10 @@ namespace WebApplication1
                 Response.Redirect("Home.aspx");
             }
         }
+
+        protected void lnkbtnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }

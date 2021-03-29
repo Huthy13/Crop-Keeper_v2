@@ -48,7 +48,7 @@ namespace WebApplication1
                 lblPasswordError.Text = string.Empty;
                 password = txtPassword.Text;
             }
-            Response.Redirect(String.Format("Login.aspx", userName));
+            //Response.Redirect(String.Format("Login.aspx", userName));
             Response.Redirect("Home.aspx");
         }
     }

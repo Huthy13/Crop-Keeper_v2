@@ -90,7 +90,9 @@
         <div>
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style2">
+                    <asp:LinkButton ID="lnkbtnBack" runat="server" OnClick="lnkbtnBack_Click">Back</asp:LinkButton>
+                </td>
                 <td class="auto-style15">Date Sample Taken:<asp:Label ID="lblDateError" runat="server" CssClass="auto-style19"></asp:Label>
                 </td>
                 <td class="auto-style11">&nbsp;</td>
