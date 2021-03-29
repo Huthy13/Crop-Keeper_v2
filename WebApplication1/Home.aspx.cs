@@ -21,7 +21,7 @@ namespace WebApplication1
 
         protected void btnWateringCal_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Watering%20Calender.aspx");
         }
 
         protected void btnRecordPlantHist_Click(object sender, EventArgs e)

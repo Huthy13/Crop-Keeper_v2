@@ -62,7 +62,9 @@
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style2">
+                    <asp:LinkButton ID="lnkbtnBack" runat="server" OnClick="lnkbtnBack_Click">Back</asp:LinkButton>
+                </td>
                 <td class="auto-style12">Growth History</td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>
