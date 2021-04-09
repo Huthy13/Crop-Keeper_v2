@@ -67,13 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\user.mdf" />
-    <Content Include="App_Data\user_log.ldf">
-      <DependentUpon>user.mdf</DependentUpon>
+    <Content Include="App_Data\CropKeeper.mdf" />
+    <Content Include="App_Data\CropKeeper_log.ldf">
+      <DependentUpon>CropKeeper.mdf</DependentUpon>
     </Content>
     <Content Include="images\calendar.png" />
     <Content Include="images\garden.jpg" />
     <Content Include="Global.asax" />
+    <Content Include="userList.aspx" />
     <Content Include="Watering Calender.aspx" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />
@@ -121,6 +122,13 @@
     </Compile>
     <Compile Include="Soil_Composition_Tracker.aspx.designer.cs">
       <DependentUpon>Soil_Composition_Tracker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userList.aspx.cs">
+      <DependentUpon>userList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userList.aspx.designer.cs">
+      <DependentUpon>userList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Watering Calender.aspx.cs">
       <DependentUpon>Watering Calender.aspx</DependentUpon>
