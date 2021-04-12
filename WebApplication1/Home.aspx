@@ -70,7 +70,7 @@
             <tr>
                 <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style12">
-                    <asp:Button ID="btnViewHistory" runat="server" CssClass="auto-style13" Text="View History and Trends" Width="270px" />
+                    <asp:Button ID="btnViewHistory" runat="server" CssClass="auto-style13" Text="View History and Trends" Width="270px" OnClick="btnViewHistory_Click" />
                 </td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>

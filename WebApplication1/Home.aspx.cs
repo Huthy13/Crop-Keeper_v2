@@ -28,5 +28,10 @@ namespace WebApplication1
         {
             Response.Redirect("Record_History.aspx");
         }
+
+        protected void btnViewHistory_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Trends_History.aspx");
+        }
     }
 }

@@ -82,6 +82,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Record_History.aspx" />
     <Content Include="Soil_Composition_Tracker.aspx" />
+    <Content Include="Trends_History.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -136,6 +137,13 @@
     </Compile>
     <Compile Include="Watering Calender.aspx.designer.cs">
       <DependentUpon>Watering Calender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trends_History.aspx.cs">
+      <DependentUpon>Trends_History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trends_History.aspx.designer.cs">
+      <DependentUpon>Trends_History.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
