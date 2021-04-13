@@ -26,39 +26,46 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            height: 23px;
-        }
         .auto-style2 {
             height: 23px;
-            background-color: #669900;
+            background-color: #99CC00;
         }
         .auto-style3 {
-            background-color: #669900;
+            background-color: #99CC00;
         }
         .auto-style4 {
             height: 23px;
             text-align: center;
-            background-color: #669900;
+            background-color: #99CC00;
         }
         .auto-style5 {
             text-align: center;
-            background-color: #669900;
+            background-color: #99CC00;
         }
         .auto-style6 {
             text-align: center;
         }
         .auto-style7 {
             text-align: center;
-            background-color: #669900;
+            background-color: #99CC00;
             font-size: x-large;
+        }
+        .auto-style8 {
+            width: 100%;
+        }
+        .auto-style9 {
+            text-align: center;
+            background-color: #FFFFFF;
+        }
+        .auto-style10 {
+            background-color: #333333;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <table style="width:100%;">
+            <table class="auto-style8">
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style7"><strong>Trends and History</strong></td>
@@ -117,7 +124,7 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style5">
-                        <asp:Button ID="btnSeeData" runat="server" BackColor="#FF9900" ForeColor="#0066CC" OnClick="btnSeeData_Click" Text="Retrieve Data" />
+                        <asp:Button ID="btnSeeData" runat="server" BackColor="#E5E5E5" ForeColor="Black" OnClick="btnSeeData_Click" Text="Retrieve Data" CssClass="auto-style10" />
                     </td>
                     <td class="auto-style3">&nbsp;</td>
                 </tr>
@@ -126,11 +133,11 @@
                     <td class="auto-style4">
                         <asp:Label ID="lblDataInputMessage" runat="server" Text="Your Results:"></asp:Label>
                     </td>
-                    <td class="auto-style1"></td>
+                    <td class="auto-style2"></td>
                 </tr>
                 <tr>
                     <td class="auto-style6">&nbsp;</td>
-                    <td class="auto-style6">
+                    <td class="auto-style9">
                         <asp:GridView ID="GridView1" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
                             <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
                             <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
@@ -145,7 +152,7 @@
                         <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
                         <br />
                     </td>
-                    <td class="auto-style6">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
                 </tr>
             </table>
         </div>
